@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.wellnessz.arogyasadhana",
+      "sha256_cert_fingerprints": [
+        "14:5A:14:BF:26:A8:16:A4:C4:1E:99:1F:CE:5C:FB:3E:C3:BF:28:2A:34:A7:4E:F2:61:A8:9D:8D:0A:29:31:CD"
+      ]
+    }
+  }
+]
+
+
