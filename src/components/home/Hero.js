@@ -74,7 +74,7 @@ export default function Hero() {
               alt="Hero Image"
               width={500}
               height={600}
-              className="rounded-full shadow-2xl w-[280px] h-[280px] md:w-[450px] md:h-[450px]"
+              className="rounded-full shadow-2xl  w-[280px] h-[280px] md:w-[450px] md:h-[450px]"
             />
           </div>
 

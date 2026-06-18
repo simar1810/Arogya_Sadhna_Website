@@ -10,27 +10,27 @@ const data = [
   {
     title: "Fasting & Metabolism",
     desc: "Explore how intermittent fasting influences metabolic rate, fat burning, insulin sensitivity, and overall energy balance. Learn how structured eating windows can support weight management and long-term metabolic health.",
-    img: "https://weightlosscell.com/wp-content/uploads/2024/10/Fasting-and-Metabolism-1024x585.jpg",
+    img: "/home/Fasting.webp",
   },
   {
     title: "Stress & Nutrition",
     desc: "Discover the connection between food choices and stress levels. Learn how nutrients like magnesium, omega-3s, and complex carbs can support brain function, improve mood stability, and reduce anxiety.",
-    img: "https://nutritiontravels.com/wp-content/uploads/2025/09/839a1dc8-71a5-4a13-9714-3969cac5ab00.jpg",
+    img: "/home/Stress.jpg",
   },
   {
     title: "Healthy Lifestyle Basics",
     desc: "Build a strong foundation for lifelong wellness with simple daily habits including balanced nutrition, regular physical activity, hydration, sleep quality, mindful living practices and eating healthy patterns at proper time.",
-    img: "https://img.freepik.com/premium-vector/healthy-lifestyle-vector-illustration-with-organic-vegetables-fruit-workout_2175-18075.jpg?w=2000",
+    img: "/home/lifestyle.avif",
   },
   {
     title: "Gut Health Guide",
     desc: "Understand the importance of a healthy gut microbiome and how fiber-rich foods, probiotics, balanced nutrition and time to time meals support digestion, immunity and overall well-being of the body .",
-    img: "https://www.innerbuddies.com/cdn/shop/articles/the-ultimate-guide-to-gut-health-10-natural-ways-to-boost-your-microbiome-434390.png?v=1742036779",
+    img: "/home/gut.jpg",
   },
   {
     title: "Women Wellness",
     desc: "Focus on nutrition strategies that support hormonal balance, reproductive health, bone strength, muscle health, healthy heart, strong immune system  and overall vitality through different stages of a woman’s life.",
-    img: "https://cdn.sanity.io/images/4pare3i8/production/15157971faca5ab3210d45ed3bf6c835b4fddfe3-1024x1024.png",
+    img: "/home/womens.png",
   },
 ];
 

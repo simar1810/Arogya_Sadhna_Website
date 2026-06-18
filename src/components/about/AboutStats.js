@@ -38,12 +38,12 @@ export default function AboutStats() {
   const stats = [
     {
       icon: <FaUsers className="text-[#D9186F] text-4xl sm:text-5xl mb-2" />,
-      number: "1000+",
+      number: "10,000+",
       title: "Lives Touched",
     },
     {
       icon: <FaAward className="text-[#D9186F] text-4xl sm:text-5xl mb-2" />,
-      number: "7+",
+      number: "10+",
       title: "Certifications",
     },
     {
@@ -53,8 +53,8 @@ export default function AboutStats() {
     },
     {
       icon: <FaClinicMedical className="text-[#D9186F] text-4xl sm:text-5xl mb-2" />,
-      number: "Sadhana",
-      title: "Clinic",
+      number: "Clinic",
+      title: "Bhaote Accident Hospital",
     },
   ];
 
@@ -63,7 +63,7 @@ export default function AboutStats() {
       className="w-full py-8 sm:py-10"
       style={{ backgroundColor: "#F8B8D3" }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4">
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-20 text-center">
           {stats.map((stat, index) => (
             <StatCard

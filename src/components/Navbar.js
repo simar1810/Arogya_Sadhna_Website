@@ -15,11 +15,11 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white fixed w-full top-0 z-50 shadow-md">
-      <div className="max-w-7xl mx-auto px-5 md:px-10 flex justify-between items-center h-16">
+      <div className="max-w-7xl mx-auto px-5 md:px-10 flex justify-between items-center h-7 sm:h-16">
         {/* Left: Logo */}
-        <div className="text-[#D9186F] text-2xl font-bold cursor-pointer flex items-center gap-4">
+        <div className="text-[#D9186F] text-2xl font-bold cursor-pointer flex items-center gap-4 sm:mt-0 mt-5">
           <img src="/website_logo.jpeg" alt="Arogya Sadhana Logo" className="h-16 w-20 rounded-full mt-3 md:mt-0"/>
-          <Link href="/">Arogya Sadhana</Link>
+          <Link href="/" className="mt-3 sm:mt-0">Arogya Sadhana</Link>
         </div>
 
         {/* Center: Menu */}
@@ -48,7 +48,7 @@ export default function Navbar() {
 
         {/* Mobile menu button */}
         <div
-          className="md:hidden flex flex-col cursor-pointer space-y-1 ml-3"
+          className="md:hidden flex flex-col cursor-pointer space-y-1 ml-3 mt-7"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <span
@@ -71,7 +71,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <ul
-        className={`md:hidden bg-white flex flex-col items-center space-y-6 py-5 text-black font-medium transition-all duration-500 overflow-hidden ${
+        className={`md:hidden bg-white flex flex-col items-center space-y-6 py-5 mt-5 text-black font-medium transition-all duration-500 overflow-hidden ${
           menuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
         }`}
       >

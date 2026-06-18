@@ -118,7 +118,7 @@ export default function ExpertiseSection() {
           Areas of Expertise
         </h2>
 
-        <p className="text-gray-600 max-w-2xl mx-auto mt-2 text-sm md:text-base">
+        <p className="text-gray-600 p-2 max-w-2xl mx-auto mt-2 text-sm md:text-base">
           Personalized, clinically directed nutrition plans targeting metabolic corrections and long-term wellness
         </p>
       </div>

@@ -40,7 +40,7 @@ export default function AboutDetails() {
 
             {/* Bottom-right info box */}
             <div className="absolute bottom-4 right-4 bg-white shadow-md rounded-lg px-3 py-2 text-sm border-2 border-[#D91865]">
-              <h4 className="font-bold text-gray-800">Sadhana Clinic</h4>
+              <h4 className="font-bold text-gray-800">Bhaote Accident Hospital</h4>
               <p className="text-gray-600">Buldhana, Maharashtra</p>
             </div>
           </div>

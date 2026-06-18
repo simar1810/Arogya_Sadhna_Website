@@ -22,7 +22,7 @@ export default function Footer() {
             </h3>
 
             <p className="text-black text-sm text-justify leading-relaxed">
-              Sadhana is a clinical wellness space founded by Dr. Sadhana Bhaote,
+              Bhaote Accident Hospital, Physiotherapy and Diet clinic is a clinical wellness space founded by Dr. Sadhana Bhaote,
               a Clinical, Functional & Preventive Nutritionist. 
             </p>
           </div>

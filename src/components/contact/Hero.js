@@ -8,7 +8,7 @@ export default function Hero() {
       role="banner"
     >
       <Image
-        src="/contact/hero_contact.jpg"
+        src="/contact/hospital.jpeg"
         alt="Contact Us"
         fill
         priority

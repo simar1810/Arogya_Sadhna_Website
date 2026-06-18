@@ -3,104 +3,110 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Smitha Menon",
-    img: "/home/home_nutrionist.jpg",
+    name: "Geetanjali Kashyap",
     review:
-      "Hi! I wanted to share my experience with Smitha Menon — I’ve seen noticeable weight reduction, my inflammation has reduced significantly, and my diabetes is much better under control now. I also feel much better overall, with real relief from bloatedness and constipation. It’s made a big difference in how I feel day to day. Thank you, Smitha!",
+      "My digestion feels better and I feel lighter and more active throughout the day after following this guidance.",
     rating: 5,
   },
   {
     name: "Rahul Sharma",
-    img: "/home/home_nutrionist.jpg",
     review:
-      "Dr. Sadhana’s guidance has truly made a meaningful difference in my lifestyle. The way she approaches nutrition and overall wellness feels very practical and easy to follow in daily life. Over time, I have noticed a clear improvement in my energy levels, and I feel much more active and balanced throughout the day",
+      "The guidance is simple and practical. I feel more energetic and my daily routine feels much more balanced now.",
+    rating: 5,
+  },
+  {
+    name: "Anita Verma",
+    review:
+      "Simple and effective approach. My health markers improved and I feel more confident in my daily food choices.",
+    rating: 5,
+  },
+  {
+    name: "Pooja Nair",
+    review:
+      "I feel more energetic and light after following the plan. It fits easily into my daily routine without stress.",
     rating: 5,
   },
 ];
 
 export default function Testimonials() {
   return (
-    <motion.div className="w-full py-20 px-6 md:px-16 bg-amber-50"
-       initial={{ opacity: 0, x: 50 }}
-       whileInView={{ opacity: 1, x: 0 }}
-       transition={{ duration: 0.8, delay: 0.2 }}
-       viewport={{ once: true }}
+    <motion.section
+      className="w-full py-24 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.7 }}
+      viewport={{ once: true }}
     >
-
       {/* TITLE */}
-      <motion.h2 className="text-3xl md:text-5xl font-bold text-center mb-14"
-        initial={{ y: -20, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.4 }}
-      >
+      <div className="text-center mb-14">
+        <h2 className="text-3xl md:text-5xl font-bold">
+          What Clients <span className="text-[#D9186F]">Say</span>
+        </h2>
+        <p className="text-gray-500 mt-3">
+          Real feedback from real wellness journeys
+        </p>
+      </div>
 
-        What <span className="text-[#D9186F]"> Patients </span> Say
-      </motion.h2>
-
-      <div className="max-w-6xl mx-auto">
-
+      <div className="max-w-7xl mx-auto">
         <Swiper
           modules={[Autoplay, Pagination]}
-          slidesPerView={1}
-          loop={true}
+          loop
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
+          spaceBetween={25}
+          breakpoints={{
+            0: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
         >
-
           {testimonials.map((item, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={index} className="h-auto flex">
+              <div className="relative flex flex-col h-full bg-white rounded-3xl p-8 mb-2 shadow-md border border-[#D9186F] overflow-hidden">
 
-              {/* OUTER WRAPPER */}
-              <div className="flex flex-col md:flex-row gap-6 bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+                {/* glow effect */}
+                <div className="absolute -top-10 -right-10 w-40 h-40 bg-pink-200 blur-3xl opacity-30 rounded-full "></div>
 
-                {/* IMAGE */}
-                <div className="w-full md:w-1/2 h-[250px] md:h-[520px] rounded-2xl md:rounded-r-none overflow-hidden">
-                  <img
-                    src={item.img}
-                    alt={item.name}
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                  />
+                {/* quote */}
+                <div className="text-5xl text-[#D9186F]/20 font-serif leading-none">
+                  “
                 </div>
 
-                {/* CONTENT */}
-                <div className="w-full md:w-1/2 p-6 md:p-10 flex flex-col justify-center space-y-6">
+                {/* review (uniform height) */}
+                <p className="text-gray-700 mt-3 leading-relaxed text-sm md:text-base line-clamp-3 min-h-[72px]">
+                  {item.review}
+                </p>
 
-                  {/* STARS */}
-                  <div className="flex text-yellow-400 text-2xl md:text-3xl">
-                    {Array.from({ length: 5 }, (_, i) => (
-                      <span key={i}>
-                        {i < item.rating ? "★" : "☆"}
-                      </span>
-                    ))}
+                {/* rating */}
+                <div className="flex gap-1 text-yellow-400 mt-5 text-lg">
+                  {Array.from({ length: 5 }, (_, i) => (
+                    <span key={i}>{i < item.rating ? "★" : "☆"}</span>
+                  ))}
+                </div>
+
+                {/* footer */}
+                <div className="mt-auto pt-6 flex items-center justify-between">
+                  <div>
+                    <p className="font-semibold text-gray-900">
+                      {item.name}
+                    </p>
+                    <p className="text-xs text-gray-500">Verified Client</p>
                   </div>
 
-                  {/* REVIEW */}
-                  <p className="text-gray-700 text-sm md:text-lg leading-relaxed text-justify">
-                    {item.review}
-                  </p>
-
-                  {/* NAME */}
-                  <div className="flex items-center gap-3 pt-2">
-                    <div className="w-10 h-10 rounded-full bg-[#D9186F] text-white flex items-center justify-center font-semibold">
-                      {item.name.charAt(0)}
-                    </div>
-                    <p className="font-semibold text-gray-800">{item.name}</p>
+                  <div className="w-11 h-11 rounded-full bg-gradient-to-br from-[#D9186F] to-pink-400 text-white flex items-center justify-center font-bold shadow-md">
+                    {item.name.charAt(0)}
                   </div>
-
                 </div>
 
               </div>
-
             </SwiperSlide>
           ))}
-
         </Swiper>
-
       </div>
-    </motion.div>
+    </motion.section>
   );
 }
