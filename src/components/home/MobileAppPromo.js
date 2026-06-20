@@ -114,13 +114,13 @@ export default function MobileAppPromo() {
             transition={{ type: "spring", stiffness: 120 }}
             className="drop-shadow-2xl"
           >
-            <Image
-              src="/client-assets/HWD_Mockup.png"
-              alt="Mobile App Mockup"
-              width={600}
-              height={920}
-              className="object-contain bg-transparent"
-            />
+            <div className="w-full flex justify-center">
+             <img
+               src="/client-assets/HWD_Mockup.png"
+               alt="Mobile App Mockup"
+               className="w-full max-w-[600px] h-auto object-contain bg-transparent"
+             />
+           </div>
           </motion.div>
         </motion.div>
 

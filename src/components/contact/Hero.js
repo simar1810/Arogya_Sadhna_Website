@@ -7,12 +7,10 @@ export default function Hero() {
       className="relative w-full h-[40vh] sm:h-[50vh] md:h-[55vh] lg:h-[60vh] xl:h-[65vh]"
       role="banner"
     >
-      <Image
+      <img
         src="/contact/hospital.jpeg"
         alt="Contact Us"
-        fill
-        priority
-        className="object-cover"
+        className="absolute inset-0 w-full h-full object-cover"
       />
 
       {/* Animated Overlay */}

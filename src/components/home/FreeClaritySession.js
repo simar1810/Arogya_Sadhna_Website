@@ -153,12 +153,12 @@ export default function FreeClaritySession() {
               className="relative w-full h-[300px] sm:h-[380px] md:h-[500px] lg:h-[600px]"
             >
               <div className="relative w-full h-[450px] sm:h-[600px]">
-  <img
-    src="/home/consultation.jpeg"
-    alt="Free Consultation"
-    className="w-full h-full object-cover rounded-xl shadow-2xl"
-  />
-</div>
+                <img
+                  src="/home/consultation.jpeg"
+                  alt="Free Consultation"
+                  className="w-full h-full object-cover rounded-xl shadow-2xl"
+                />
+              </div>
             </motion.div>
           </motion.div>
         </div>

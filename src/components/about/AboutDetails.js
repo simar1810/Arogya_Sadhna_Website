@@ -30,13 +30,13 @@ export default function AboutDetails() {
         >
           <div className="rounded-2xl bg-white border border-[#D91865] shadow-xl p-6 relative">
             
-            <Image
+           <div className="w-full flex justify-center">
+            <img
               src="/about/about_nutritionist.jpeg"
               alt="Sadhana Clinic"
-              width={400}
-              height={500}
-              className="w-[320px] sm:w-[360px] md:w-[380px] h-[280px] sm:h-[350px] md:h-[450px] object-cover"
+              className="w-full max-w-[600px] h-auto object-contain bg-transparent"
             />
+          </div>
 
             {/* Bottom-right info box */}
             <div className="absolute bottom-4 right-4 bg-white shadow-md rounded-lg px-3 py-2 text-sm border-2 border-[#D91865]">
