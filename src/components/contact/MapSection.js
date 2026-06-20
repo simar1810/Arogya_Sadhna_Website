@@ -41,7 +41,7 @@ export default function MapSection() {
         <div className="overflow-hidden rounded-3xl shadow-2xl border border-pink-100">
           <iframe
             title="Bhaote Diet Clinic Location"
-            src="https://maps.google.com/maps?q=Buldhana,Maharashtra&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            src="https://www.google.com/maps?q=Bhaote%20Accident%20Hospital%2C%20Buldhana%2C%20Maharashtra&output=embed"
             width="100%"
             height="550"
             style={{ border: 0 }}

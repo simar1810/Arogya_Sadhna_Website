@@ -9,7 +9,7 @@ export default function AboutPreview() {
     {
       name: "Dr. Sadhana Bhaote",
       qualification: "Clinical Nutrition Expert",
-      image: "/home/home_nutrionist.jpg",
+      image: "/home/home_nutritionist.jpeg",
       category: "ABOUT YOUR NUTRITIONIST",
       description:
         "A clinical nutrition expert dedicated to transforming lives through personalized nutrition, lifestyle modification, and holistic wellness strategies. Her evidence-based approach empowers individuals to achieve sustainable health.",

@@ -153,7 +153,7 @@ export default function FreeClaritySession() {
               className="relative w-full h-[300px] sm:h-[380px] md:h-[500px] lg:h-[600px]"
             >
               <Image
-                src="/home/home_nutrionist.jpg"
+                src="/home/consultation.jpeg"
                 alt="Free Consultation"
                 fill
                 className="object-cover rounded-xl shadow-2xl"

@@ -31,7 +31,7 @@ export default function AboutDetails() {
           <div className="rounded-2xl bg-white border border-[#D91865] shadow-xl p-6 relative">
             
             <Image
-              src="/home/home_nutrionist.jpg"
+              src="/about/about_nutritionist.jpeg"
               alt="Sadhana Clinic"
               width={400}
               height={500}

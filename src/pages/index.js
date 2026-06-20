@@ -7,6 +7,7 @@ import Publications from "@/components/home/Publications";
 import Testimonials from "@/components/home/Testimonials";
 import FreeClaritySession from "@/components/home/FreeClaritySession";
 import FAQSection from "@/components/home/FAQSection";
+import MobileAppPromo from "@/components/home/MobileAppPromo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,6 +27,7 @@ export default function Home() {
     <AboutPreview/>
     <Publications/>
     <Testimonials/>
+    <MobileAppPromo/>
     <FreeClaritySession/>
     <FAQSection/>
    </main>

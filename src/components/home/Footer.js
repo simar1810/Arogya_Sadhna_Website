@@ -86,7 +86,7 @@ export default function Footer() {
             <div className="overflow-hidden w-[350px] rounded-xl border border-gray-700">
               <iframe
                 title="location"
-                src="https://www.google.com/maps?q=Panampilly%20Nagar%20Kochi&output=embed"
+                src="https://www.google.com/maps?q=Bhaote%20Accident%20Hospital%2C%20Buldhana%2C%20Maharashtra&output=embed"
                 width="100%"
                 height="150"
                 loading="lazy"
