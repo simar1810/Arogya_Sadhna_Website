@@ -17,7 +17,7 @@ export default function AboutPreview() {
       highlights: [
         {
           title: "Education",
-          desc: "Physiotherapy, MSc Nutrition, PhD Scholar",
+          desc: "Physiotherapy, MSc Nutrition, PhD in Food Science and Clinical Nutrition",
         },
         {
           title: "Approach",

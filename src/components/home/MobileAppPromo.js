@@ -34,12 +34,16 @@ export default function MobileAppPromo() {
           viewport={{ once: true, amount: 0.2 }}
           className="space-y-6"
         >
-          <motion.span
-            variants={fadeUp}
-            className="text-[#D9186F] font-semibold tracking-widest uppercase text-sm"
-          >
-            Mobile App
-          </motion.span>
+        <motion.div
+          variants={fadeUp}
+          className="flex items-center w-fit rounded-full border-2 border-[#D9186F]"
+        >
+          <img
+            src="/website_logo.jpeg"
+            alt="Logo"
+            className="h-16 w-16 md:h-20 md:w-20 rounded-full object-cover"
+          />
+        </motion.div>
 
           <motion.h2
             variants={fadeUp}

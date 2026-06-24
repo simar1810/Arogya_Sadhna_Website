@@ -45,14 +45,14 @@ export default function FreeClaritySession() {
               variants={fadeUp}
               className="inline-block text-[#D9186F] font-semibold tracking-widest uppercase text-sm"
             >
-              Free Clarity Session
+               Clarity Session
             </motion.span>
 
             <motion.h2
               variants={fadeUp}
               className="text-3xl md:text-4xl font-bold leading-tight text-black"
             >
-              Get a Free 1-on-1{" "}
+              Get a 1-on-1{" "}
               <span className="text-[#D9186F]">Consultation</span>
               <br />
               with the Nutritionist!
@@ -66,7 +66,7 @@ export default function FreeClaritySession() {
               <span className="font-semibold text-black">
                 directly with Sadhana Bhaote
               </span>{" "}
-              — absolutely free. No sign-ups, no commitments — just a real
+              — absolutely . No sign-ups, no commitments — just a real
               conversation about you, your body, and your health goals.
             </motion.p>
 
@@ -155,7 +155,7 @@ export default function FreeClaritySession() {
               <div className="relative w-full h-[450px] sm:h-[600px]">
                 <img
                   src="/home/consultation.jpeg"
-                  alt="Free Consultation"
+                  alt="Consultation"
                   className="w-full h-full object-cover rounded-xl shadow-2xl"
                 />
               </div>

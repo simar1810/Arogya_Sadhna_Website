@@ -15,7 +15,7 @@ export default function Hero() {
         className="absolute inset-0"
       >
         <Image
-          src="/services/services_heros.webp"
+          src="/contact/hospital.jpeg"
           alt="Our Services"
           fill
           priority
@@ -38,7 +38,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-[#D9186F] text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold mb-3 sm:mb-4"
+          className="text-white text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold mb-3 sm:mb-4"
         >
           Our Services
         </motion.h1>
@@ -47,7 +47,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-black text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl max-w-2xl"
+          className="text-white text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl max-w-2xl"
         >
           Evidence-based, personalized nutrition care plans
         </motion.p>

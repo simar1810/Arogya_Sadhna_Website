@@ -17,7 +17,8 @@ export default function Hero() {
   return (
     <section className="relative w-full h-[50vh] sm:h-[60vh] md:h-[50vh] lg:h-[60vh] xl:h-[70vh]">
       <Image
-        src="/about/about_hero.jpg" // Replace with your image
+        // src="/about/about_hero.jpg" 
+        src="/about/main_hero.png" 
         alt="About Sadhana Bhaote"
         fill
         priority
@@ -49,7 +50,7 @@ export default function Hero() {
           animate="visible"
           className="text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl max-w-2xl"
         >
-          Know More About Sadhana Bhaote
+          Know More About Dr. Sadhana Bhaote
         </motion.p>
       </div>
     </section>

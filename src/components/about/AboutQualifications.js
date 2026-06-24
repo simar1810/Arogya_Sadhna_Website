@@ -50,17 +50,28 @@ export default function AboutQualifications() {
             </div>
 
             <ul className="flex flex-col gap-2 text-gray-700 text-sm md:text-base mt-2">
-              <li className="flex items-start gap-2">
-                <FaCheckCircle className="text-[#F28AB2] mt-1" />
-                <span>Bachelor in Physiotherapy (MUHS)</span>
+              <li className="flex items-center gap-2">
+                <FaCheckCircle className="text-[#F28AB2] flex-shrink-0" />
+                <span>
+                  Bachelor in Physiotherapy (MUHS)
+                </span>
               </li>
-              <li className="flex items-start gap-2">
-                <FaCheckCircle className="text-[#F28AB2] mt-1" />
+
+              <li className="flex items-center gap-2">
+                <FaCheckCircle className="text-[#F28AB2] flex-shrink-0" />
                 <span>MSc (Food and Diet Management)</span>
               </li>
-              <li className="flex items-start gap-2">
-                <FaCheckCircle className="text-[#F28AB2] mt-1" />
+
+              <li className="flex items-center gap-2">
+                <FaCheckCircle className="text-[#F28AB2] flex-shrink-0" />
                 <span>PhD in Food Science and Clinical Nutrition</span>
+              </li>
+
+              <li className="flex items-center gap-2">
+                <FaCheckCircle className="text-[#F28AB2] flex-shrink-0" />
+                <span>
+                  Research Topic: Prevalence of Osteoporosis in Premenopausal Women in Buldhana District
+                </span>
               </li>
             </ul>
           </motion.div>
@@ -79,12 +90,12 @@ export default function AboutQualifications() {
             </div>
 
             <ul className="flex flex-col gap-2 text-gray-700 text-sm md:text-base mt-2">
-              <li className="flex items-start gap-2">
+              {/* <li className="flex items-start gap-2">
                 <FaCheckCircle className="text-[#F28AB2] mt-1" />
                 <span>
                   Lifetime Member – AEDAN (Association for Evidence-Based Dietetics and Nutrition)
                 </span>
-              </li>
+              </li> */}
               <li className="flex items-start gap-2">
                 <FaCheckCircle className="text-[#F28AB2] mt-1" />
                 <span>

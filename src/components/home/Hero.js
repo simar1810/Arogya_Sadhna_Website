@@ -70,11 +70,11 @@ export default function Hero() {
           {/* main image */}
           <div className="relative z-10 animate-float">
             <img
-              src="/home/home_hero.jpg"
+              src="/home/home_hero.jpeg"
               alt="Hero Image"
               width={500}
               height={600}
-              className="rounded-full shadow-2xl  w-[280px] h-[280px] md:w-[450px] md:h-[450px]"
+              className="rounded-full shadow-2xl w-[280px] h-[280px] md:w-[450px] md:h-[450px] object-cover object-[60%_25%]"
             />
           </div>
 

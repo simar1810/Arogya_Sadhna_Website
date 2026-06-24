@@ -72,11 +72,11 @@ export default function HowItWorksSection() {
              rel="noopener noreferrer"
              className="text-gray-800 text-sm hover:text-[#D9186F] transition"
            >
-             Bhaote Accident Hospital, Buldhana, Maharashtra
+             Bhaote Accident Hospital, Physiotherapy and Diet clinic, Near Govt. Medical college, Dhad road, Buldhana (MH)
            </a>
-            <p className="text-gray-600 text-sm">
+            {/* <p className="text-gray-600 text-sm">
               Physiotherapy and Diet Clinic
-            </p>
+            </p> */}
           </div>
         </motion.div>
 

@@ -59,7 +59,7 @@ export default function AboutDetails() {
           </p>
 
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Sadhana Bhaote
+            Dr. Sadhana Bhaote
           </h2>
 
           <p className="text-gray-700 text-sm md:text-base leading-relaxed text-justify">
